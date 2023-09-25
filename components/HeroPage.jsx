@@ -4,7 +4,7 @@ import React from "react";
 function HeroPage() {
   return (
     <>
-      <div className="h-[500px] relative mt-7 w-full">
+      <div className="h-[500px] relative mt-7 w-full z-40">
         <div className="absolute h-72 w-72 -top-5 left-4 blur-xl rounded-full border-none outline-none opacity-20 z-10 bg-green-400"></div>
         <div className="absolute h-72 w-72 -bottom-10 right-4 blur-xl rounded-full border-none outline-none opacity-25 z-10 bg-green-500"></div>
         <div className="grid grid-cols-1 z-20 md:grid-cols-2 place-items-center h-full w-full">
